@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <link rel="stylesheet" href="style.css">
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Countdown | DevN</title>
+
+            <script src="script.js" defer></script>
+            <!--Defer: script é recarregado depois dos demais documentos-->
+        </head>
+
+        <body>
+            <!--Figma: https://www.figma.com/file/PUTKmIFfUJTCYlAgCI6TNE/DD-%2F-Countdown-(Copy)?node-id=0%3A1-->
+            <section>
+                <header>
+                    <img src="./images/top-image.svg" alt="">
+                </header>
+                
+                <main>
+                    <section>
+                        <h1>HAPPY NEW YEAR IN...</h1>
+            
+                            <div class="countdown-countainer">
+                                <div class="countdown-el days-c">
+                                    <span>Dias</span>
+                                    <p class="text" id="days">00</p>
+                                </div>
+                
+                                <div class="countdown-el hours-c">
+                                    <span>Horas</span>
+                                    <p class="text" id="hours">00</p>
+                                </div>
+                
+                                <div class="countdown-el minutes-c">
+                                    <span>Minutos</span>
+                                    <p class="text" id="minutes">00</p>
+                                </div>
+                
+                                <div class="countdown-el seconds-c">
+                                    <span>Segundos</span>
+                                    <p class="text" id="seconds">00</p>
+                                </div>
+                            </div>
+        
+                        <p>Inscreva-se para saber mais sobre o lançamento</p>
+        
+                        <button id="formOpen">Inscreva-se</button>
+
+                        <dialog>
+                            <h1>Inscreva-se</h1>
+
+                            <form action="" method="post">
+                                <label for="name">Nome</label><br>
+                                <input type="text" id="name" placeholder="Digite seu nome" required>
+                                <br>
+
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" placeholder="Digite seu email..." required>
+                                <br>
+
+                                <button id="formSend">Enviar</button>
+                            </form>
+                        </dialog>
+                    </section>
+
+                    <aside>
+                        <img src="./images/rocket.svg" alt="Imagem de um foguete">
+                    </aside>
+                </main>
+
+                <footer>
+                    <img src="./images/bottom-image.svg" alt="">
+                </footer>
+            </section>
+        </body>
+    </html>

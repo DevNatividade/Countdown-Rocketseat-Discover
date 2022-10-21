@@ -1,0 +1,139 @@
+/*```css
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+```*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header img {
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-around;
+
+    color: #9C9AB6;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+    margin-top: 2rem;
+}
+
+main section h1 {
+    Font-size: 36px;
+    Line-height: 100%;
+    Letter-spacing: 20%;
+    color: #6C63FF;
+}
+
+main section .countdown-countainer span{
+    Font-size: 14px;
+    color: #C8C8C8;
+} 
+
+main section .countdown-countainer p {
+    Font-size: 72px;
+    Line-height: 100%;
+    color: #4D4C59;
+}
+
+.countdown-countainer {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+main section p {
+    Font-size: 14px;
+    Line-height: 100%;
+    color: #9C9AB6;
+}
+
+main section button {
+    background: #6C63FF;
+    color: #FFFFFF;
+
+    padding: 0.6rem 1rem;
+
+    border-radius: 8px;
+    border: 0;
+
+    transition: 0.2s;
+}
+
+main section button:hover {
+    background: #C8C8C8;
+}
+
+main dialog::backdrop {
+    background-color: rgb(250 250 250 / .6);
+}
+
+main dialog {
+    height: 60%;
+    width: 20%; 
+    margin: auto;
+    padding: 2rem 1rem;
+    box-shadow: 0 0 1em rgb(0 0 0 / .3);
+    border-radius: 8px;
+    text-align: center;
+}
+
+main dialog h1{
+    margin-bottom: 2rem;
+}
+
+main dialog label {
+    color: #C8C8C8;
+} 
+
+main dialog input {
+    margin-bottom: 1rem;
+}
+
+main aside img {
+    width: 607px;
+    height: 100%;
+}
+
+footer img {
+    width: 100%;
+}
+
+/*```css
+:root {
+  --black: #4D4C59;
+  --purple: #6C63FF;
+	--light-grey: #C8C8C8;
+  --text-color: #9C9AB6;
+}
+```*/
